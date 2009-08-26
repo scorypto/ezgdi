@@ -1,9 +1,13 @@
-#summary One-sentence summary of this page.
+#summary Documents available on ezgdi
 
-= Introduction =
+= 文档分类 =
 
-Add your content here.
+==过程总结==
+ * [DetoursToEasyHookPorting 从Detours移植到EasyHook的过程]
 
-=进阶阅读=
+==源码分析==
  * [DetoursInGdiPlusPlus gdi++中对detours的使用]
  * [EasyHookUnmanagedApi EasyHook对非托管程序的支持]
+
+==相关链接==
+ * RelatedLinks
