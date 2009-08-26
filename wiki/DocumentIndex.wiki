@@ -1,0 +1,9 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+=进阶阅读=
+ * [DetoursInGdiPlusPlus gdi++中对detours的使用]
+ * [EasyHookUnmanagedApi EasyHook对非托管程序的支持]
