@@ -9,5 +9,9 @@
  * [DetoursInGdiPlusPlus gdi++中对detours的使用]
  * [EasyHookUnmanagedApi EasyHook对非托管程序的支持]
 
+==开发测试==
+ * [Win32Debug Windows下应用程序调式技巧]
+ * [Win32Benchmark Windows下应用性能测试]
+
 ==相关链接==
  * RelatedLinks
