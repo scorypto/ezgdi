@@ -31,5 +31,3 @@
 =forums | 论坛=
  * ThemeX gdi++ forum
   * http://bbs.themex.net/forumdisplay.php?f=61
-=Acknowledgment=
-Thanks flowercold@themex.net for providing these links
