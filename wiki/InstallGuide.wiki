@@ -1,3 +1,5 @@
+#summary ezgdi install guide
+
 = ezgdi的安装 =
 
 目前 ezgdi 还在内测阶段, 没有安装包. 但有编译好的 dll 下载, 参见 [http://code.google.com/p/ezgdi/downloads/list download] 区的 ezgdi-dll-rXX.zip 的包下载.
