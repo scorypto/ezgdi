@@ -1,5 +1,7 @@
 #summary ezgdi install guide
 
+* ezgdi目前还不稳定, 尤其是 x64 的 dll, 最好在重启/注销用户之前卸载, 否则可能导致系统启动不了 *
+
 = ezgdi的安装 =
 
 目前 ezgdi 还在内测阶段, 没有安装包. 但有编译好的 dll 下载, 参见 [http://code.google.com/p/ezgdi/downloads/list download] 区的 ezgdi-dll-rXX.zip 的包下载.
