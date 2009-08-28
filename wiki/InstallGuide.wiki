@@ -28,6 +28,7 @@ Windows 7/Vista/XP x86 版本的安装方法
 = 当前问题 =
 
  * x64 下, 访问 www.themex.net 等中文站点, 会导致 IE8 崩溃
+ * x64 下比较不稳定, 建议谨慎使用, 随时准备好从注册表中禁止 dll 加载.
  * x64/x86 下, 开始菜单, 桌面, IE的字体不能渲染
  * 浏览器访问很长的[http://bbs.themex.net/showthread.php?t=16825621 中文页面], 翻页时有明显的停顿感
 
