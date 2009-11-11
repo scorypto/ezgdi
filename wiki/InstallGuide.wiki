@@ -4,7 +4,7 @@
 
 * ezgdi is extremely unstable and not recommende to instsall, it can make your system unbootable *
 
-= ezgdi的安装 =
+= ezgdi的安装 | Install ezgdi =
 
 目前 ezgdi 还在内测阶段, 没有安装包. 但有编译好的 dll 下载, 参见 [http://code.google.com/p/ezgdi/downloads/list download] 区的 ezgdi-dll-rXX.zip 的包下载.
 
@@ -37,18 +37,20 @@ Windows 7/Vista/XP x86 版本的安装方法
 
  * on x86 windows, it's similar
 
-= 使用 =
+= 使用 | Use =
 
 注册表安装成功之后, 打开新的程序, 就能看到效果了.
 
-= 当前问题 =
+Open new program after import the reg file. It should be effective immediately
+
+= 当前问题 | Current problem =
 
  * x64 下, 访问 www.themex.net 等中文站点, 会导致 IE8 崩溃
  * x64 下比较不稳定, 建议谨慎使用, 随时准备好从注册表中禁止 dll 加载.
  * x64/x86 下, 开始菜单, 桌面, IE的字体不能渲染
  * 浏览器访问很长的[http://bbs.themex.net/showthread.php?t=16825621 中文页面], 翻页时有明显的停顿感
 
-= 卸载 = 
+= 卸载 | Uninstall ezgdi = 
 
 Windows 7/Vista x64 版本卸载方法:
 
