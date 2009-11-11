@@ -2,26 +2,40 @@
 
 * ezgdi目前还不稳定, 尤其是 x64 的 dll, 最好在重启/注销用户之前卸载, 否则可能导致系统启动不了 *
 
+* ezgdi is extremely unstable and not recommende to instsall, it can make your system unbootable *
+
 = ezgdi的安装 =
 
 目前 ezgdi 还在内测阶段, 没有安装包. 但有编译好的 dll 下载, 参见 [http://code.google.com/p/ezgdi/downloads/list download] 区的 ezgdi-dll-rXX.zip 的包下载.
+
+There are no installer for ezgdi right now. Only a bare dll, check the file like ezgdi-dll-rXX.zip in [http://code.google.com/p/ezgdi/downloads/list download] list
 
 解开之后, 有几个文件:
  * 其中, easyhook 那些 dll 可以拷贝到 c:\windows 目录下
  * ezgdi-x86.dll 和 ezgdi-x64.dll 加上 gdi++.ini 随便放
 
+Extract the zip, put easyhook64 or other easyhook dll in one of the directory in PATH, such as c:\windows or c:\windows\system32
+
 目前只支持注册表加载, gditray不能用.
+
+Currently, only registry load are supported.
 
 Windows 7/Vista x64 版本安装方法:
 
  * 编辑 ezgdi-x64.reg 文件, 修正 ezgdi-x64.dll, ezgdi-x86.dll 的路径(用双斜杠\\表示\)
  * 如果不想用 ezgdi 提供 32 位字体的渲染, 可以删除注册表文件的最后三行
  * 双击 ezgdi-x64.reg 安装到注册表
- 
+
+ * to install on x64 windows, use notepad to edit ezgdi-x64.reg, fix the path to both ezgdi-x86.dll and ezgdi-x64.dll
+ * if don't need to render 32 bit program, delete last 3 lines in reg file
+ * then import the reg file
+
 Windows 7/Vista/XP x86 版本的安装方法
 
  * 编辑 ezgdi-x86.reg 文件, 修正 ezgd-x86.dll 的路径
  * 双击 ezgdi-x86.reg 安装到注册表
+
+ * on x86 windows, it's similar
 
 = 使用 =
 
@@ -39,7 +53,9 @@ Windows 7/Vista/XP x86 版本的安装方法
 Windows 7/Vista x64 版本卸载方法:
 
  * 双击 ezgdi-x64-uninstall.reg 禁止了注册表加载. 之后可以手动把安装时拷贝的文件删除
+ * to disable ezgdi on x64 windows, import ezgdi-x64-uninstall.reg, the registry key will be removed
 
 Windows 7/Vista x86 版本卸载方法:
 
  * 双击 ezgdi-x86-uninstall.reg 可以删除 ezgdi 的注册表项. 之后可以手动把安装时拷贝的文件删除
+ * to disable ezgdi on x86 windows, import ezgdi-x86-uninstall.reg, the registry key will be removed
