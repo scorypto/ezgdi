@@ -1,5 +1,7 @@
 #summary ezgdi install guide
 
+= Notice before install =
+
 ezgdi is somehow unstable and not recommend to install on important system, it can make your system unbootable.
 
 = Install ezgdi =
