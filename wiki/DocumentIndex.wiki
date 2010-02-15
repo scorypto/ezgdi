@@ -2,17 +2,17 @@
 
 = 文档分类 =
 
-== 试用 ==
- * [InstallGuide ezgdi安装说明]
+== Install ==
+ * InstallGuide
 
-== 移植文档 ==
- * [DetoursToEasyHookPorting 从Detours移植到EasyHook的过程]
- * [DetoursInGdiPlusPlus gdi++中对detours的使用]
- * [EasyHookUnmanagedApi EasyHook对非托管程序的支持]
+== Porting Documents ==
+ * DetoursToEasyHookPorting 从Detours移植到EasyHook的过程]
+ * DetoursInGdiPlusPlus
+ * EasyHookUnmanagedApi
 
-== 开发测试 ==
- * [Win32Debug Windows下应用程序调式技巧]
- * [Win32Benchmark Windows下应用性能测试]
+== Development ==
+ * Win32Debug
+ * Win32Benchmark
 
 == 相关链接 ==
  * RelatedLinks
