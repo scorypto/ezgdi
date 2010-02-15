@@ -1,7 +1,5 @@
 #summary Documents available on ezgdi
 
-= 文档分类 =
-
 == Install ==
  * InstallGuide
 
