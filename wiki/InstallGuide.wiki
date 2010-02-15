@@ -4,16 +4,24 @@ ezgdi is somehow unstable and not recommend to install on important system, it c
 
 = Install ezgdi =
 
-There are no installer for ezgdi right now, only zip files. Check ezgdi-rXX.zip files in project [http://code.google.com/p/ezgdi/downloads/list download] page.
+There are no installer for ezgdi right now, only zip files. 
 
-Download and extract the zip, put easyhook64 or other easyhook dll in one of the directory in PATH, such as c:\windows or c:\windows\system32.
+1. Download latest ezgdi-rXX.zip files in project [http://code.google.com/p/ezgdi/downloads/list download] page.
 
-Currently, only registry load are supported.
+2. Extract the zip, put easyhook64 or other easyhook dll in one of the directory in PATH, such as c:\windows or c:\windows\system32.
 
-To install ezgdi on x64 windows, use notepad to edit ezgdi-x64.reg, fix the path of ezgdi-x86.dll and ezgdi-x64.dll, then import the reg file.
+Currently, your need to modify registry to load ezgdi.
+
+3. To install ezgdi on x64 windows, use notepad to edit ezgdi-x64.reg, fix the path of ezgdi-x86.dll and ezgdi-x64.dll, then import the reg file.
 
 Open new program after the reg file is imported. ezgdi should be effective immediately.
 
 = Uninstall ezgdi = 
 
-To uninstall ezgdi on x64 windows, import ezgdi-x64-uninstall.reg, the registry key will be removed. After windows is rebooted, you can remove ezgdi DLL files in your system path.
+To uninstall ezgdi on x64 windows,
+
+1. import ezgdi-x64-uninstall.reg, the registry key will be removed. 
+
+2. Reboot Windows
+
+3. After Windows is rebooted, you can remove ezgdi DLL files in your system path.
