@@ -10,7 +10,7 @@ There are no installer for ezgdi right now, only zip files.
 
 1. Download latest ezgdi-rXX.zip files in project [http://code.google.com/p/ezgdi/downloads/list download] page.
 
-2. Extract the zip, put easyhook64 or other easyhook dll in one of the directory in PATH, such as c:\windows or c:\windows\system32.
+2. Extract the zip, put easyhook64.dll, EasyHook32.dll in one of the directory in PATH, such as c:\windows or c:\windows\system32.
 
 Currently, your need to modify registry to load ezgdi.
 
