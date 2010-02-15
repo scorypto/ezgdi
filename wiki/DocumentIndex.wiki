@@ -6,13 +6,7 @@
  * InstallGuide
 
 == Porting Documents ==
- * DetoursToEasyHookPorting 从Detours移植到EasyHook的过程]
- * DetoursInGdiPlusPlus
- * EasyHookUnmanagedApi
+ * DetoursToEasyHookPorting (in Chinese)
 
-== Development ==
- * Win32Debug
- * Win32Benchmark
-
-== 相关链接 ==
+== Misc ==
  * RelatedLinks
